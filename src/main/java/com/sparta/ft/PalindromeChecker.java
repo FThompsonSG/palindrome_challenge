@@ -6,19 +6,19 @@ public class PalindromeChecker {
 
     public boolean checkMethod(String input) {
 
-        boolean isPalindrome = false;
-        char[] inputCharArray = input.toCharArray();
-        char[] reverseCharArray = new char[inputCharArray.length];
+            boolean isPalindrome = false;
+            char[] inputCharArray = input.toCharArray();
+            char[] reverseCharArray = new char[inputCharArray.length];
 
-        for (int i = input.length() - 1; i >= 0; i--) {
-            reverseCharArray[i] = inputCharArray[input.length() - 1 - i];
-        }
+            for (int i = input.length() - 1; i >= 0; i--) {
+                reverseCharArray[i] = inputCharArray[input.length() - 1 - i];
+            }
 
-        if (Arrays.equals(inputCharArray, reverseCharArray)) {
-            isPalindrome = true;
-        }
+            if (Arrays.equals(inputCharArray, reverseCharArray)) {
+                isPalindrome = true;
+            }
 
-        return isPalindrome;
+            return isPalindrome;
 
     }
 

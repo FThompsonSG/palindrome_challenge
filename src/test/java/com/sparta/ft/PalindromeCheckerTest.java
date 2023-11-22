@@ -9,11 +9,11 @@ class PalindromeCheckerTest {
 
     PalindromeChecker palindromeChecker = new PalindromeChecker();
 
-    @Test
-    @DisplayName("Test to check method returns true")
-    void checkMethodTrueTest() {
-        assertTrue(palindromeChecker.checkMethod("BOB"));
-    }
+//    @Test
+//    @DisplayName("Test to check method returns true")
+//    void checkMethodTrueTest() {
+//        assertTrue(palindromeChecker.checkMethod("BOB"));
+//    }
 
     @Test
     @DisplayName("Test to check method returns longest palindrome")

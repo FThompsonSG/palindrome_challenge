@@ -6,8 +6,7 @@ package com.sparta.ft;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ) {
 
         PalindromeChecker palindromeChecker = new PalindromeChecker();
         System.out.println(palindromeChecker.checkMethod("BROTHER"));
